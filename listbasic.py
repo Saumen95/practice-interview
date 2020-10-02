@@ -13,3 +13,7 @@ shoplist.insert(2, 'bedana') # insert at index
 print(shoplist)
 word_count = collections.Counter(shoplist)
 print(word_count)
+shoplist.reverse()
+print(shoplist)
+shoplist.remove(shoplist[4]) # remove at index
+print(shoplist)
